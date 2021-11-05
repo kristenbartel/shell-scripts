@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 set - Eeuo pipefail #air handling and checking
 LINK=${1?Error: No link}
