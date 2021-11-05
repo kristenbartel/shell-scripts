@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set - Eeuo pipefail #air handling and checking
+set -Eeuo pipefail #air handling and checking
 LINK=${1?Error: No link}
 NAME=${2?Error: No name}
 
