@@ -1,6 +1,6 @@
 #!/bin/bash
  function multipage() {
-    mkdir "$1";
+    $1mkdir "";
     cd "$1";
     touch "index.html";
     mkdir "scripts";
